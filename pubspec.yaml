@@ -1,0 +1,157 @@
+name: ivt_web
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  provider: ^6.0.0
+  package_info_plus: ^9.0.1
+  url_launcher: ^6.1.5
+  smooth_page_indicator: ^2.0.1
+  flutter_typeahead: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/resources/applogo.png
+    - lib/resources/background_with_logo.jpg
+    - lib/resources/background_without_logo.jpg
+    - lib/resources/dachowka.jpg
+    - lib/resources/decra.jpg
+    - lib/resources/ivt_logo.png
+    - lib/resources/karpiowka_kominek.jpg
+    - lib/resources/klik.jpg
+    - lib/resources/kominek.png
+    - lib/resources/kominek_blachodahowka.jpg
+    - lib/resources/kominek_dachowka.jpg
+    - lib/resources/kominydachowka.jpg
+    - lib/resources/nordmark2.png
+    - lib/resources/nordmark3.png
+    - lib/resources/nw.png
+    - lib/resources/plaski.jpg
+    - lib/resources/reszta.jpg
+    - lib/resources/spinka.svg
+    - lib/resources/spinka407.png
+    - lib/resources/spinka409.png
+    - lib/resources/spinka416.png
+    - lib/resources/spinka417.png
+    - lib/resources/spinka435.png
+    - lib/resources/spinka456.png
+    - lib/resources/t18t35.png
+    - lib/resources/wyborblachodachowka.jpg
+    - lib/resources/decra.jpg
+    - lib/resources/kominydachowka.jpg
+    - lib/resources/klamry.png
+    - lib/resources/spinka456_products.png
+    - lib/resources/Kominek typu 150.png
+    - lib/resources/141248.png
+    - lib/resources/141240.png
+    - lib/resources/141219.png
+    - lib/resources/141218.png
+    - lib/resources/141157.png
+    - lib/resources/141154.png
+    - lib/resources/141139.png
+    - lib/resources/141132.png
+    - lib/resources/141102.png
+    - lib/resources/141083.png
+    - lib/resources/141051.png
+    - lib/resources/141041.png
+    - lib/resources/141029.png
+    - lib/resources/141024.png
+    - lib/resources/141013.png
+    - lib/resources/141018.png
+    - lib/resources/141041.png
+    - lib/resources/141045.png
+    - lib/resources/141048.png
+    - lib/resources/141053.png
+    - lib/resources/141062.png
+    - lib/resources/141064.png
+    - lib/resources/141067.png
+    - lib/resources/141069.png
+    - lib/resources/141071.png
+    - lib/resources/141072.png
+    - lib/resources/141081.png
+    - lib/resources/141082.png
+    - lib/resources/141088.png
+    - lib/resources/141104.png
+    - lib/resources/141140.png
+    - lib/resources/141176.png
+    - lib/resources/141142.png
+    - lib/resources/141200.png
+    - lib/resources/141214.png
+    - lib/resources/141177.png
+    - lib/resources/ivt_logo_appbar.png
+    - lib/resources/spinka_pageview.png
+    - lib/resources/kominek 150.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: fonts/CustomIcons.ttf
+    - family: Monte
+      fonts:
+        - asset: fonts/monte.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

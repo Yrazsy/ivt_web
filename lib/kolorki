@@ -1,0 +1,16 @@
+    biały szary
+    Color.fromRGBO(204, 198, 198, 1)
+    biały cień
+    Color.fromRGBO(240, 240, 240, 1)
+    zolty
+    Color.fromRGBO(245, 179, 52, 1)
+    jasno zolty
+    Color.fromRGBO(255, 187, 57, 1)
+    ciemnozolty
+    Color.fromRGBO(249, 170, 51, 1)
+    czarny
+    Color.fromRGBO(21, 21, 21, 1)
+    ciemno szary
+    Color.fromRGBO(34, 34, 34, 1)
+    jasno szary
+    Color.fromRGBO(82, 83, 87, 1)
